@@ -1,0 +1,17 @@
+.profile-page{
+    width:100%;
+    height:550px;
+    background-color: #eee;
+    padding:5%;
+}
+.profile-page>h2{
+    color:black;
+}
+.empty-cart{
+    margin-left: -5%;
+    margin-top: -5%;
+}
+#order-items{
+    overflow-y:scroll;
+    height:100%;
+}

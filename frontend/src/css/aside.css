@@ -1,0 +1,65 @@
+.aside-box{
+    width:20%;
+    /* height:550px; */
+    background-color: #606060;
+    display:inline-block;
+    padding:2%;
+}
+.aside-box>.Link{
+    padding-left:10%; ;
+    color: rgb(195, 14, 255);;
+}
+.aside-box>.Link:hover{
+    text-decoration: none;
+    color:rgb(255, 231, 231)
+}
+.login-comp{
+    width: 100%;
+    height: 550px;
+    background-color: #eee;
+    padding-top:5%;
+}
+.login-box{
+    padding: 2%;
+    width:500px;
+    height:400px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin:auto;
+}
+.login-box form{
+    width:85%;
+    height:80%;
+    margin:auto;
+    margin-top: 10%;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.form-floating{
+    width:100%;
+}
+.login-box>form button{
+    width:90px;
+    margin-top:10%;
+}
+.login-box>form small{
+    margin-top:5%;
+    color:black;
+}
+.sign-up{
+    padding-top: 2%;
+}
+.sign-up>div{
+    height:450px;
+}
+.sign-up>form button{
+    width:90px;
+    margin-top:5%;
+}
+.b{
+    width:120px !important;
+    padding: 10px 20px 8px 20px !important;
+}

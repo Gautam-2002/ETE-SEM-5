@@ -1,0 +1,31 @@
+body{
+    box-sizing: border-box;
+    margin:0px;
+    overflow:hidden;
+}
+.Link{
+    text-decoration: none;
+    color:inherit;
+}
+.display{
+    display: flex;
+    height:550px;
+    width:100%;
+    /* border:1px solid black */
+}
+.response{
+    width:300px;
+    height:auto;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 100px;
+    color:white;
+    margin: auto;
+    visibility: hidden;
+    display:flex;
+    font-size: 20px;
+    justify-content: center;
+    padding: 10px 1px 20px;
+    word-break: break-all;
+    right: 100px;background-image: linear-gradient(to right bottom, #fb00ff, #fb00ffec, #fb00ffd3);
+}
